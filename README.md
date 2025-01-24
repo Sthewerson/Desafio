@@ -54,7 +54,10 @@ A aplicação estará disponível em http://localhost:8000/.
 
 Acessar o Painel de Administração do Django
 Se você criou um superusuário, você pode acessar o painel de administração do Django em http://localhost:8000/admin/ usando as credenciais do superusuário.
-Endpoints
+
+
+## Endpoints
+
 1. Obter Token JWT
 - Método: POST
 - URL: http://localhost:8000/api/token/
