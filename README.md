@@ -94,7 +94,7 @@ Se você criou um superusuário, você pode acessar o painel de administração 
 4. Obter Detalhes do Usuário
 
 - Método: GET
-- URL: http://localhost:8000/api/users/<id>/
+- URL: http://localhost:8000/api/users/3/
 - Headers:
   
   Authorization: Bearer <your_access_token>
@@ -102,7 +102,7 @@ Se você criou um superusuário, você pode acessar o painel de administração 
 5. Obter Detalhes da Carteira
 
 - Método: GET
-- URL: : http://localhost:8000/api/wallets/<id>/
+- URL: : http://localhost:8000/api/wallets/3/
 - Headers:
   
   Authorization: Bearer <your_access_token>
@@ -110,7 +110,7 @@ Se você criou um superusuário, você pode acessar o painel de administração 
 6. Adicionar Saldo à Carteira
 
 - Método: POST
-- URL: http://localhost:8000/api/wallets/<id>/add_balance/
+- URL: http://localhost:8000/api/wallets/3/add_balance/
 - Headers:
   
   Authorization: Bearer <your_access_token>
@@ -146,7 +146,7 @@ Body: JSON
 
 - Método: GET
 - URL: http://localhost:8000/api/transactions/list/
--Headers:
+- Headers:
 
 Authorization: Bearer <your_access_token>
 
