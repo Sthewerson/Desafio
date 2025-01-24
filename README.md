@@ -152,9 +152,8 @@ Authorization: Bearer <your_access_token>
 
 9. Histórico de Transações
 
--Método: GET
--URL: http://localhost:8000/api/transactions/history/?start_date=<YYYY-MM-DD>&end_date=<YYYY-MM-DD>
-
-Headers:
+- Método: GET
+- URL: http://localhost:8000/api/transactions/history/?start_date=2023-01-01&end_date=2023-12-31
+- Headers:
 
 Authorization: Bearer <your_access_token>
