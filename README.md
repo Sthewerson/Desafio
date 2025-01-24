@@ -128,7 +128,7 @@ Body: JSON
 
 - Método: POST
 - URL: http://localhost:8000/api/transactions/
--Headers:
+- Headers:
 
  Authorization: Bearer <your_access_token>
  
