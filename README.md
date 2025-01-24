@@ -19,7 +19,7 @@ Clone o repositório para o seu ambiente local:
 
 ```bash
 git clone https://github.com/Sthewerson/Desafio.git
-cd desafio
+cd Desafio
  ```
 2. Construir e Iniciar os Contêineres
 Construa e inicie os contêineres Docker:
