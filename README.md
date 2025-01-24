@@ -18,7 +18,7 @@ Este projeto é uma API de carteira digital construída com Django e Django REST
 Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/Sthewerson/Desafio.git
+git clone https://github.com/Sthewerson/Digital-Wallet-API..git
 cd Desafio
  ```
 2. Construir e Iniciar os Contêineres
