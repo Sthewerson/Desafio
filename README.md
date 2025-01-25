@@ -22,28 +22,33 @@ git clone https://github.com/Sthewerson/Digital-Wallet-API..git
 cd Desafio
  ```
 2. Construir e Iniciar os Contêineres
+   
 Construa e inicie os contêineres Docker:
   ```bash
 docker-compose up -d --build    
 ```
 
 3. Executar as Migrações
+   
 Execute as migrações para criar as tabelas no banco de dados:
  ```bash
 docker-compose exec django python manage.py makemigrations
 docker-compose exec django python manage.py migrate     
 ```
 4. Popular o Banco de Dados (Opcional)
+   
 Popule o banco de dados com dados iniciais:
  ```bash
  docker-compose exec django python manage.py populate_db     
 ```
 5. Criar um Superusuário (Opcional)
+   
 Crie um superusuário para acessar o painel de administração do Django:
  ```bash
 docker-compose exec django python manage.py createsuperuser      
 ```
 6. Como Rodar o Programa
+   
 Iniciar o Servidor
 Certifique-se de que os contêineres Docker estão em execução:
  ```bash
